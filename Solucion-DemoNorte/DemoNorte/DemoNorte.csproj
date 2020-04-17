@@ -95,6 +95,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\ConceptosBasicos1Controller.cs" />
     <Compile Include="Controllers\ConceptosBasicos2Controller.cs" />
+    <Compile Include="Controllers\ConceptosBasicos3Controller.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -107,6 +108,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\ConceptosBasicos1\Ejercicio1.cshtml" />
     <Content Include="Views\ConceptosBasicos2\Ejercicio2.cshtml" />
+    <Content Include="Views\ConceptosBasicos3\Ejercicio3.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
