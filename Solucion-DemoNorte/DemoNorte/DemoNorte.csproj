@@ -100,6 +100,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ListasController.cs" />
     <Compile Include="Controllers\Tablas1Controller.cs" />
+    <Compile Include="Controllers\Tablas2Controller.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -115,6 +116,7 @@
     <Content Include="Views\Enlaces\Ejercicio4.cshtml" />
     <Content Include="Views\Listas\Ejercicio5.cshtml" />
     <Content Include="Views\Tablas1\Ejercicio6.cshtml" />
+    <Content Include="Views\Tablas2\Ejercicio7.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
