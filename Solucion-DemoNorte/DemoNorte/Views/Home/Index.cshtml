@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@using DemoNorte.Models
+<!DOCTYPE html>
 
 <html>
 <head>
@@ -46,5 +47,12 @@
             <td><a href="/FormulariosHtml/Ejercicio10">Formularios HTML</a></td>
         </tr>
     </table>
+
+    <ul>
+        @foreach (var item in Dominio.Get())
+        {
+            <li>Nombre: @item.Nombre | Apellido: @item.Apellido | Sexo: @item.Sexo | Correo: @item.Correo </li>
+        }
+    </ul>
 </body>
 </html>
